@@ -14,7 +14,7 @@ import su.afk.videoplayer.model.VideoItem
 import javax.inject.Inject
 
 @HiltViewModel
-class MainViewModel @Inject constructor(
+class PlayerViewModel @Inject constructor(
     // последнее состояние экрана при смерте процессора
     private val savedStateHandle: SavedStateHandle,
     val player: Player,
